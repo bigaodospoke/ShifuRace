@@ -1,0 +1,16 @@
+{
+  "itemGroup.shifurace": "ShifuRace",
+  "block.shifurace.trofeu": "Troféu de Corrida",
+  "item.shifurace.trofeu.desc": "Entregue ao vencedor de uma corrida de Pokémon.",
+  "item.shifurace.trofeu.dono": "Vencedor: %s",
+  "item.shifurace.trofeu.pista": "Pista: %s",
+  "item.shifurace.trofeu.tempo": "Tempo: %s",
+  "item.shifurace.trofeu.pilotos": "Pilotos: %s",
+  "item.shifurace.trofeu.data": "Data: %s",
+  "item.shifurace.ferramenta": "Ferramenta de Pista",
+  "item.shifurace.ferramenta.desc1": "Clique esquerdo: ponto 1 (um lado da pista)",
+  "item.shifurace.ferramenta.desc2": "Clique direito: ponto 2 (o outro lado)",
+  "item.shifurace.ferramenta.desc3": "Agachado + clique direito no ar: linha/checkpoint",
+  "key.shifurace.voltar": "Voltar ao último checkpoint",
+  "category.shifurace": "ShifuRace (corrida)"
+}

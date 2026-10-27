@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "shifurace:block/trofeu" },
+    "facing=east": { "model": "shifurace:block/trofeu", "y": 90 },
+    "facing=south": { "model": "shifurace:block/trofeu", "y": 180 },
+    "facing=west": { "model": "shifurace:block/trofeu", "y": 270 }
+  }
+}
