@@ -83,3 +83,7 @@ Ficam em `<mundo>/shifurace/`: `pistas.json`, `retornos.json` (para onde cada um
 - `./gradlew build` compila e roda os testes da lógica (portões, voltas, posições, ranking).
 - `bash run/selftest.sh run/test-output.log | ./gradlew runServer | tee run/test-output.log` sobe um servidor de teste e roda os comandos principais pelo console. O Porytronz vem de um datapack em `run/world/datapacks/porytronz`.
 - `node tools/gerar_recursos.js` regera as texturas, o modelo do troféu e o ícone.
+
+## Licença / License
+
+Copyright (c) 2026 Kauã Batista do Nascimento ([bigaodospoke](https://github.com/bigaodospoke)). **Todos os direitos reservados / All rights reserved.** Veja o arquivo [LICENSE](LICENSE).

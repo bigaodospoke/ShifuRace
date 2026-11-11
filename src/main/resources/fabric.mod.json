@@ -4,18 +4,36 @@
   "version": "${version}",
   "name": "ShifuRace",
   "description": "Corridas de Pokémon estilo F1 para o Eclipse Cobblemon: pistas com checkpoints montadas no jogo, Porytronz emprestado igual para todos, cronômetro por volta, troféu do vencedor e placar com os melhores tempos.",
-  "authors": ["bigaodospoke"],
-  "contact": {},
-  "license": "MIT",
+  "authors": [
+    "Kauã Batista do Nascimento"
+  ],
+  "contact": {
+    "homepage": "https://github.com/bigaodospoke",
+    "sources": "https://github.com/bigaodospoke/ShifuRace"
+  },
+  "license": "All Rights Reserved",
   "icon": "assets/shifurace/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [{ "adapter": "kotlin", "value": "com.shifurace.ShifuRace" }],
-    "client": [{ "adapter": "kotlin", "value": "com.shifurace.client.ShifuRaceClient" }]
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.shifurace.ShifuRace"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "com.shifurace.client.ShifuRaceClient"
+      }
+    ]
   },
   "mixins": [
     "shifurace.mixins.json",
-    { "config": "shifurace.client.mixins.json", "environment": "client" }
+    {
+      "config": "shifurace.client.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
     "fabricloader": ">=0.16.0",
